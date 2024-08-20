@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My Personal Website</title>
+    <style>
+
+
+
+
+
+
+
+
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        /* Navigation styling */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Section styling */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            bottom: 0;
+            width: 100%;
+        }
+
+        img {
+            margin-top: 40px;
+            width: 300px;
+            height: 300px;
+            margin-left: 40%;
+            border-radius: 50%;
+        }
+
+        .form {
+            padding-left: 100px;
+            margin-top: 50px;
+        }
+
+        span.message-head {
+            font-size: 39px;
+        }
+
+        input#fname,
+        input#lname {
+            width: 361px;
+            height: 48px;
+        }
+
+        textarea {
+            width: 361px;
+            height: 84px;
+        }
+
+        .button {
+            background-color: #333;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .social-links {
+            text-align: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-links img {
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+        }
+        .am{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">My Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="image/akash.jpg" alt="imageakash">
+    <h1 class="am">Hello! I am Akash</h1>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My Name is <b>Akash</b> and I am pursuing a B.Tech in Information Technology at Mahendra Engineering College.
+        </p>
+        <h3>Education</h3>
+        <p>I completed my higher secondary education at Nalandas Matric Higher Secondary School, where I cultivated a
+            strong academic foundation and a love for learning.</p>
+        <h3>Interests</h3>
+        <p>Beyond academics, I have a keen interest in coding, problem-solving, and exploring new technological
+            advancements. My curiosity drives me to continuously learn and adapt to the ever-evolving tech landscape.
+        </p>
+
+    </section>
+
+    <section id="projects">
+        <h2>My Skills</h2>
+        <ul>
+            <li style="margin: 20px;"><b>Programming Language</b> : C , java , Python.</li>
+            <li style="margin: 20px;"><b>Web Development</b> : HTML , CSS.</li>
+            <li style="margin: 20px;"><b>My Linkedin Profile</b> :</li>
+        </ul>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><i class="fas fa-phone"></i> Phone: +91 6379554409</p>
+        <p><i class="fas fa-envelope"></i> Email: akashkrishnan2310@gmail.com</p>
+
+    </section>
+    <section id="message">
+        <h1 class="message-title">GET IN TOUCH</h1>
+        <span class="message-head">Have Something To Write?</span>
+        <form class="form" action="#">
+            <input type="text" placeholder="First Name" id="fname" name="fname">
+            <input type="text" placeholder="Last Name" id="lname" name="lname"><br />
+            <textarea style="margin-top: 9px;" placeholder="Your Message"></textarea><br />
+            <input class="button" type="submit" value="Send">
+        </form>
+    </section>
+    <div class="social-links">
+        <a href="https://www.instagram.com/yourusername" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+        </a>
+    </div>
+</body>
+
+</html>
